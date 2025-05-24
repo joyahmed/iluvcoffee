@@ -11,6 +11,6 @@ export class Coffee {
   @Column()
   brand: string;
 
-  @Column('json', { nullable: true  })
+  @Column('json', { nullable: true })
   flavors: string[];
 }
